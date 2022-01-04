@@ -1,0 +1,138 @@
+/* ipad */
+@media (min-width: 750px){
+  h1{
+    font-size: 1.9rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1.4rem;
+  }
+  a{
+    font-size: 1.4rem;
+  }
+  header{
+    background: url(/images/bg-header-desktop.png) no-repeat;
+    background-size: contain;
+  }
+  .btn-container{
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .for-ios{
+    margin-right: 100px;
+  }
+}
+
+
+/* ipad pro */
+@media (min-width: 1000px){
+  h1{
+    font-size: 2.1rem;
+  }
+  h3{
+    font-size: 1.7rem;
+  }
+  p{
+    font-size: 1.6rem;
+  }
+  a{
+    font-size: 1.6rem;
+  }
+  .f2 img{
+    width: 60px;
+  }
+  .companies{
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 300px 0;
+  }
+  .companies img:not(:last-child){
+    margin-bottom: 0;
+  }
+  footer{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: flex-start;
+  }
+  footer img{
+    margin-bottom: 0;
+  }
+  footer div:not(:last-child) a{
+    text-align: start;
+  }
+  footer div:not(:last-child) a:last-child{
+    margin-bottom: 0;
+  }
+}
+
+
+/* desktops */
+@media (min-width: 1300px){
+  header img{
+    width: 10%;
+  }
+  header p{
+    width: 60%;
+  }
+  .trk-snips p{
+    width: 70%;
+  }
+  .acc-any p{
+    /* width: 100%; */
+    padding: 0 10%;
+  }
+  .f1-container{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  .f1-container img{
+    width: 50%;
+  }
+  .features-1{
+    width: 45%;
+  }
+  .f1{
+    width: 70%;
+    margin-top: 0;
+  }
+  .f1 h3{
+    text-align: start;
+  }
+  .f1 p{
+    text-align: start;
+    width: 90%;
+  }
+  .devices{
+    width: 40%;
+    margin-top: 100px;
+  }
+  .features-2{
+    margin-top: 200px;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+  }
+  .f2{
+    width: 30%;
+  }
+  .f2 h3{
+    width: 100%
+  }
+
+  .download p{
+    width: 70%;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  html, 
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
